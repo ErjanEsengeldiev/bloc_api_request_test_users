@@ -13,3 +13,9 @@ class UserLoadedState extends UserState {
 }
 
 class UserErorState extends UserState {}
+
+class TestState extends UserState {
+  final String name;
+
+  TestState(this.name);
+}

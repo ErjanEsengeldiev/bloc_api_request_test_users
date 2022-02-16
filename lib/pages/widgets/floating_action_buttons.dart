@@ -26,7 +26,7 @@ class FloatingActionButtonsRow extends StatelessWidget {
           const SizedBox(width: 20),
           FloatingActionButton(
             onPressed: () {
-              userBloc.add(UserRequestEvent());
+              userBloc.add(UserRequestEvent('name'));
             },
             child: const Icon(Icons.download),
           ),
