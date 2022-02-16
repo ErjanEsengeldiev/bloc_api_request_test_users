@@ -12,7 +12,7 @@ class Company {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = Map<String, dynamic>();
+    final Map<String, dynamic> data = <String, dynamic>{};
     data['name'] = name;
     data['catchPhrase'] = catchPhrase;
     data['bs'] = bs;
